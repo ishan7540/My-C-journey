@@ -18,5 +18,16 @@ int main()
     int rfact = factorial(r);
     int nrfact = factorial(n-r);
     int nCr = nfact/(rfact*nrfact);
+    int a;
+    printf("%d", "Now input number you would like to check even or odd")
+    scanf("&d",a);
+
+    if(a%2==0){
+        cout<<"Number is even!";
+
+    }else{
+        cout<<"Number is odd!";
+        
+    }
     printf("%d",nCr);
  }
