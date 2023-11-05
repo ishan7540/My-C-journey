@@ -11,7 +11,7 @@ int main()
  {
     int n,r;
     printf("Welcome to nCr calculator!!!\n");
-    printf("Enter the value to n and r:");
+    printf("Enter the value of n and r:");
     scanf("%d %d", &n,&r);
     
     int nfact = factorial(n);
