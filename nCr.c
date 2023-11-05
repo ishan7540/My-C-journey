@@ -18,5 +18,6 @@ int main()
     int rfact = factorial(r);
     int nrfact = factorial(n-r);
     int nCr = nfact/(rfact*nrfact);
+    printF("%d", "Note: Lakksh(gr8) is trying GIT")
     printf("%d",nCr);
  }
