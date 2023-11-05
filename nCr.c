@@ -27,6 +27,7 @@ int main()
 
     }else{
         cout<<"Number is odd!";
+        
     }
     printf("%d",nCr);
  }
